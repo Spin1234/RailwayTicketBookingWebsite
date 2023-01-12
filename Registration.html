@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+    <link rel="stylesheet" href="reg_style.css">
+</head>
+
+<body>
+    <form action="RegDb.php" method="post">
+        <div class="main">
+            <h1>Register Here</h1>
+        </div>
+        <hr>
+            <div class="container">
+            <p class="mandetory">*required fields are followed by</p>
+            <p>First Name:*<input class="first_name" type="text" name="first_name" required></p>
+            <p>Middle Name:<input class="middle_name" type="text" name="middle_name" ></p>
+            <p>Last Name:*<input class="last_name" type="text" name="last_name" required></p>
+            <p>Gender*
+                <select class="gender" name="gender" id="gender" required>
+                    <option value="">Choose</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="transgender">Others</option>
+                </select>
+            </p>
+            <p>DOB:*<input type="date" name="date" required></p>
+            <p>Email:*<input class="email" type="email" name="email" required></p>
+            <p>Aadhaar No.:*<input class="adhar" type="number" name="adhar" required></p>
+            <p>Address:*<textarea placeholder="Enter Your Address" name="address" id="address" cols="193" rows="4"></textarea></p>
+            <p>Mobile No.:*<input class="mobile" type="number" name="mobile" required></p>
+            <p>Password:*<input class="password" type="password" name="password" required></p>
+                <center><input type="submit" value="Register"></center>
+        </div>
+    </form>
+</body>
+</html>

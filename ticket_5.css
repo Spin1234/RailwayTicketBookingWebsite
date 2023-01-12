@@ -1,0 +1,84 @@
+body {
+    width: 650px;
+    height:354px;
+    border: 2px solid#3574d8 ;
+    text-transform:none;
+    margin: 50px auto;
+    background: white;
+    font-family: system-u, Times, serif;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  .logo{
+    width: 60px;
+    float: left;
+    /* margin-left: 150px; */
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+  }
+
+  
+  
+  
+  .header{
+    text-align: center;
+	background-color: #7998ca;
+    padding: 1% 2%;
+	position: relative;
+	line-height:0.5;
+  color: white;
+  opacity: 1;
+  justify-content:baseline;
+}
+.tic_img
+{
+  background-repeat: repeat;
+  background-image: url('https://ncr.indianrailways.gov.in//uploads/images/1665983145337-Picture1.png');
+  background-position: center;
+  background-size: 150px;
+  background-blend-mode: 0.5;
+}
+  
+  .name {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 10px 10px;
+    text-align:left;
+}
+  
+  .id {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 10px 10px;
+    text-align:left;
+
+  }
+  
+  .from {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 10px 10px;
+    text-align:left;
+  }
+  
+  .to {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 10px 10px;
+    text-align:left;
+  }
+  .date {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 10px 10px;
+    text-align:left;
+  }
+  
+  .time {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 10px;
+    text-align:left;
+  }
+  .status {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 10px 10px;
+    text-align:left;
+  }
+  
